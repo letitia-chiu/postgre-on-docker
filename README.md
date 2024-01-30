@@ -44,3 +44,5 @@ docker compose stop
 ## 使用 pgAdmin 連線至 Postgres DB
 1. 開啟瀏覽器，於指定 port（本專案預設為 http://localhost:5431/ ）進入 pgAdmin。
 2. 第一次開啟，會要求建立 pgAdmin 的密碼，輸入自訂密碼後按下 ok，後續開啟需輸入此密碼。
+3. 接著會要求輸入資料庫的使用者密碼(本專案是設定為 docker)，輸入密碼後按下 ok。
+4. 密碼輸入完畢後，就可以進行各項操作。
